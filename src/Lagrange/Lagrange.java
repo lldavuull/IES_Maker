@@ -88,6 +88,7 @@ public class Lagrange {
 	 * 重心拉格朗日插值法公式: Barycentric Lagrange Interpolation Formula: [(wj/x-xj)*yj] /
 	 * (wj/x-xj) for j=0~k
 	 */
+	//
 	public double Lagrange_x(float x) {
 		double wj_x_xj=0;
 		double molecular = 0;
